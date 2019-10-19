@@ -3,3 +3,39 @@ body {
   font-size: 16px;
   line-height: 1.5
 }
+
+.header {
+  width: 100%;
+  padding: 80px 10px 0 10px;
+}
+
+.header-text {
+  text-shadow: 0 0 12px 2px #000000;
+}
+
+.header-portrait {
+  max-width: 180px;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
