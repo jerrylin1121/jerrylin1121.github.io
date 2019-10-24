@@ -15,7 +15,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           scrollTop: 0
-        }, 1000);
+        }, 700);
         return false;
       }
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -25,7 +25,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top - 30
-        }, 1000);
+        }, 700);
       }
     }
   });
